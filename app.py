@@ -9,10 +9,9 @@ st.title("⚽ UEFA EURO Tournament Analysis")
 st.markdown("""
 This app presents an analysis of UEFA EURO tournament data, including goals, red cards, attendance, and match averages.
 """)
-
 @st.cache_data
 def load_data():
-    url = "https://drive.google.com/uc?id=1N_KA0v890rH6nnou01MRHvWo3zknWDoK"
+    url = "https://drive.google.com/uc?id=1cSXAhY-x5fMPlw-B3LfX4MF6fVZpbbc5"
     return pd.read_csv(url)
 
 df = load_data()
