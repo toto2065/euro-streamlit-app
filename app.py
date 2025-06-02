@@ -12,7 +12,7 @@ This app presents an analysis of UEFA EURO tournament data, including goals, red
 
 @st.cache_data
 def load_data():
-    url = "https://www.dropbox.com/scl/fi/kz2vm5syzo6yzmkwm7ymj/euro_summary.csv?rlkey=58uvgszo3vmrl9zsvkb5yol4n&dl=1"
+    url = "https://drive.google.com/uc?id=1N_KA0v890rH6nnou01MRHvWo3zknWDoK"
     return pd.read_csv(url)
 
 df = load_data()
